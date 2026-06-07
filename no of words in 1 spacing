@@ -1,0 +1,6 @@
+para =input("enter a para:")
+count=1
+for ch in para:
+    if ch==" ":
+        count=count+1
+print("no para: ",count)
