@@ -8,3 +8,5 @@ while(a not in "a e i o u A E I O U"):
     else:
         low=low+1
 print(a)
+print("total no of upper case: ", up)
+print("total no of lower case:",low)
