@@ -1,9 +1,9 @@
 a="r"
 up=0
 low=0
-while(a not in "a e i o u A E I O U"):
+while(a not in "aeiouAEIOU"):
     a=input("enter a value: ")
-    if(a.isupper):
+    if(a.isupper()):
         up=up+1
     else:
         low=low+1
