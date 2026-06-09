@@ -1,0 +1,31 @@
+n=input("Enter a character :")
+res=""
+c=1
+for i in range(len(n)):
+    if i+1<len(n) and n[i]==n[i+1]:
+        c=c+1
+    else:
+        res=res+n[i]
+        res=res+str(c)
+        c=1 
+print(res,end=" ")
+ 
+//////////
+
+n=input("Enter a character :")
+res=""
+c=1
+l=[]
+for i in range(len(n)):
+    if i+1<len(n) and n[i]==n[i+1]:
+        c=c+1
+    else:
+        res=res+n[i]
+        res=res+str(c)
+        c=1 
+        l.append(res)
+        res=""
+pos=1
+for i in l:
+    print("{}.{}".format(pos,i))
+    pos=pos+1
