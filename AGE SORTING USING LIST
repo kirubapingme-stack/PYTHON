@@ -1,0 +1,6 @@
+a=["ram","leo","joe","pal"]
+b=[50,40,30,70]
+c=list(zip(b,a))
+d=sorted(c,reverse=True)
+for i in range (len(d)):
+    print("{}.{} his age is {}".format(i+1,d[i][1],d[i][0]))
