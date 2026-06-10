@@ -1,0 +1,6 @@
+a=["ram","leo","joe","pal"]
+b=[[50,40,30],[300,10,20],[80,70,20],[40,30,40]]
+for i in range (len(a)):
+    avg=0
+    avg=sum(b[i])//3
+    print("{}.{} have an average of {} ".format(i+1,a[i],avg))
