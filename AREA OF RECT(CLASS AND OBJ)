@@ -1,0 +1,16 @@
+class area:
+    value="the final value"
+    def set_dim(self):
+        x=int(input("enter length: "))
+        y=int(input("enter breadth: "))
+        self.a=x
+        self.b=y
+    def display(self):
+        print(self.a*self.b)
+            
+
+
+a=area()
+a.set_dim()
+a.display()
+print()
