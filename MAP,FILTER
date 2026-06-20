@@ -1,0 +1,13 @@
+a={'a':34,'g':45,'c':88}
+b=dict(map(lambda x:(x[0],(x[1]//10)+x[1]),a.items()))
+c=filter((lambda x:(x[1])>40),a.items())
+print(dict(c))
+print(b)
+
+
+
+s=[28,97,62,12,30,45,39]
+b=list(map(lambda x:x+10,list(filter(lambda x:x>40,s))))
+t=filter((lambda x:x>40),list(map(lambda x:x+10,s)))
+print(list(t))
+print(b)
